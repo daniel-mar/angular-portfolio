@@ -1,0 +1,28 @@
+{
+  "profile": {
+    "title": "About Me",
+    "avatarUrl": "https://picsum.photos/300/350",
+    "headline": "Hello! I am an early-career Quality Assurance Engineer and Software Developer dedicated to writing highly performant, well-tested code.",
+    "biography": "This application showcases stable integration practices leveraging modern Angular architectures, structured with strict separation of concerns for enterprise scaling."
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce System Integration",
+      "description": "Engineered automated end-to-end integration test suites utilizing modern testing frameworks to guarantee API schema compliance.",
+      "imageUrl": "https://picsum.photos/350/180?random=1",
+      "technologies": ["Angular 22", "TypeScript", "Jasmine"],
+      "liveLink": "https://example.com",
+      "githubLink": "https://github.com"
+    },
+    {
+      "id": 2,
+      "title": "Relational Database Analytics Console",
+      "description": "Designed a standalone analytical telemetry panel to securely manage transactional state queries across enterprise datasets.",
+      "imageUrl": "https://picsum.photos/350/180?random=2",
+      "technologies": ["MySQL", "SCSS", "RxJS"],
+      "liveLink": "https://example.com",
+      "githubLink": "https://github.com"
+    }
+  ]
+}

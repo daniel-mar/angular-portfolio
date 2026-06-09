@@ -1,0 +1,25 @@
+.projects-page {
+  max-width: 1200px;
+  margin: 2rem auto;
+  font-family: sans-serif;
+
+  h1 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: flex-start;
+  }
+
+  .empty-state {
+    padding: 2rem;
+    text-align: center;
+    color: #777;
+    font-size: 1.1rem;
+  }
+}

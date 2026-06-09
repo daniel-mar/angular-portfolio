@@ -1,0 +1,15 @@
+<div class="projects-page">
+  <h1>My Projects</h1>
+  
+  @if (projects().length > 0) {
+    <div class="projects-grid">
+      @for (p of projects(); track p.id) {
+        <app-project-card [project]="p"></app-project-card>
+      }
+    </div>
+  } @else {
+    <div class="empty-state">
+      <p>Loading projects from data tier...</p>
+    </div>
+  }
+</div>
