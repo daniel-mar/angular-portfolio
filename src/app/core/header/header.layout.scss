@@ -1,16 +1,30 @@
 .portfolio-header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column; // Stack elements on mobile by default
   align-items: center;
-  padding: 1rem 2rem;
+  gap: 1rem;
+  padding: 1rem;
   border-bottom: 1px solid #eaeaea;
   background: #fafafa;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
 
   .brand-logo {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: #333;
     letter-spacing: -0.5px;
+    text-align: center;
+  }
+
+  // Responsive Breakpoint: Tablets and Desktops (768px and up)
+  @media (min-width: 768px) {
+    flex-direction: row; // Align horizontally on larger viewports
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+    .brand-logo {
+      font-size: 1.25rem;
+      text-align: left;
+    }
   }
 }

@@ -7,7 +7,8 @@ export interface ProfileData {
   title: string;
   avatarUrl: string;
   headline: string;
-  biography: string;
+  biography1: string;
+  biography2: string;
 }
 
 @Component({

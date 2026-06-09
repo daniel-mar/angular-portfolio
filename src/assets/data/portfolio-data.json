@@ -2,8 +2,9 @@
   "profile": {
     "title": "About Me",
     "avatarUrl": "https://picsum.photos/300/350",
-    "headline": "Hello! I am an early-career Quality Assurance Engineer and Software Developer dedicated to writing highly performant, well-tested code.",
-    "biography": "This application showcases stable integration practices leveraging modern Angular architectures, structured with strict separation of concerns for enterprise scaling."
+    "headline": "Hey there! I am Daniel Paiz, an early-career Software & Quality Assurance Engineer dedicated to writing highly performant, well-tested code.",
+    "biography1": "This application showcases stable integration practices leveraging modern Angular architectures, structured with strict separation of concerns for enterprise scaling.",
+    "biography2": "Included are various projects that I have created throughout my growth as a software engineer, this portfolio is a work in progress and will be updated with new projects and features as I continue to learn and grow in my career."
   },
   "projects": [
     {

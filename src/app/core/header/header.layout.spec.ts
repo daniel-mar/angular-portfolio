@@ -28,6 +28,6 @@ describe('HeaderComponent', () => {
   it('should render the precise brand identity logo text', () => {
     const element = fixture.nativeElement as HTMLElement;
     const brandElement = element.querySelector('.brand-logo');
-    expect(brandElement?.textContent?.trim()).toBe('Associate SE Portfolio');
+    expect(brandElement?.textContent?.trim()).toBe('Daniel Paiz');
   });
 });
