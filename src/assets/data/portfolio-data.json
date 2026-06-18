@@ -1,10 +1,10 @@
 {
   "profile": {
     "title": "About Me",
-    "avatarUrl": "https://picsum.photos/300/350",
+    "avatarUrl": "assets/data/images/IMG_1625.png",
     "headline": "Hey there! I am Daniel Paiz, an early-career Software & Quality Assurance Engineer dedicated to writing highly performant, well-tested code.",
-    "biography1": "This application showcases stable integration practices leveraging modern Angular architectures, structured with strict separation of concerns for enterprise scaling.",
-    "biography2": "Included are various projects that I have created throughout my growth as a software engineer, this portfolio is a work in progress and will be updated with new projects and features as I continue to learn and grow in my career."
+    "biography1": "I enjoy being up to date about new technologies and cybersecurity trends. ",
+    "biography2": "This app showcases the use of Angular v22 with scalability in mind, ensuring maintainability and performance across applications. Here are a few projects I have worked on, demonstrating my journey in software development."
   },
   "projects": [
     {
@@ -13,17 +13,17 @@
       "description": "Engineered automated end-to-end integration test suites utilizing modern testing frameworks to guarantee API schema compliance.",
       "imageUrl": "https://picsum.photos/350/180?random=1",
       "technologies": ["Angular 22", "TypeScript", "Jasmine"],
-      "liveLink": "https://example.com",
+      "liveLink": "#",
       "githubLink": "https://github.com"
     },
     {
       "id": 2,
-      "title": "Relational Database Analytics Console",
-      "description": "Designed a standalone analytical telemetry panel to securely manage transactional state queries across enterprise datasets.",
+      "title": "Angular Weather App",
+      "description": "This weather app fetches weather data from OpenWeatherMap api for 'Los Angeles', allows user to search for other cities and adjust temperature units. Utilizes proxy configurations to securely manage API keys and ensure seamless integration. Focused on keeping the project modular for scalability, maintainability and debugging.",
       "imageUrl": "https://picsum.photos/350/180?random=2",
-      "technologies": ["MySQL", "SCSS", "RxJS"],
-      "liveLink": "https://example.com",
-      "githubLink": "https://github.com"
+      "technologies": ["Angular 22", "TypeScript", "Express.Js", "OpenWeatherMap API", "Vercel"],
+      "liveLink": "https://weather-i5sa9e6qz-danielmars-projects.vercel.app/",
+      "githubLink": "https://github.com/daniel-mar/weather-app"
     }
   ]
 }
