@@ -19,8 +19,8 @@
     {
       "id": 2,
       "title": "Angular Weather App",
-      "description": "This weather app fetches weather data from OpenWeatherMap api for 'Los Angeles', allows user to search for other cities and adjust temperature units. Utilizes proxy configurations to securely manage API keys and ensure seamless integration. Focused on keeping the project modular for scalability, maintainability and debugging.",
-      "imageUrl": "https://picsum.photos/350/180?random=2",
+      "description": "This weather app fetches weather data from OpenWeatherMap api for 'Los Angeles'. The user can search for other cities and adjust temperature units. Utilizes proxy configurations to securely manage API keys and ensure seamless integration. Focused on keeping the project modular for scalability, maintainability and debugging. Serverless: Interact with page's search feature to view rendered data",
+      "imageUrl": "assets/data/images/weather-app.png",
       "technologies": ["Angular 22", "TypeScript", "Express.Js", "OpenWeatherMap API", "Vercel"],
       "liveLink": "https://weather-i5sa9e6qz-danielmars-projects.vercel.app/",
       "githubLink": "https://github.com/daniel-mar/weather-app"
