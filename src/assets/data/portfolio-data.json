@@ -1,7 +1,7 @@
 {
   "profile": {
     "title": "About Me",
-    "avatarUrl": "assets/data/images/IMG_1625.png",
+    "avatarUrl": "assets/data/images/portfolio-me.jpg",
     "headline": "Hey there! I am Daniel Paiz, an early-career Software & Quality Assurance Engineer dedicated to writing highly performant, well-tested code.",
     "biography1": "I enjoy being up to date about new technologies and cybersecurity trends. ",
     "biography2": "This app showcases the use of Angular v22 with scalability in mind, ensuring maintainability and performance across applications. Here are a few projects I have worked on, demonstrating my journey in software development."
