@@ -9,12 +9,21 @@
   "projects": [
     {
       "id": 1,
-      "title": "E-Commerce System Integration",
-      "description": "Engineered automated end-to-end integration test suites utilizing modern testing frameworks to guarantee API schema compliance.",
-      "imageUrl": "https://picsum.photos/350/180?random=1",
-      "technologies": ["Angular 22", "TypeScript", "Jasmine"],
+      "title": "Vault Project",
+      "description": "Back-end API utilizing Post Quantum Cryptography (PQC) algorithms for creating tokens to establish secure sessions when interacting between client and server. Focused on ML-KEM and Kyber-768 Algorithms. Practicing test-driven development (TDD) and ensuring code quality through unit testing. Modular, maintainable, and scalable file structure prior to adding a front-end.",
+      "imageUrl": "pqc.png",
+      "technologies": ["Python", "OQS-Library", "Post-Quantum Cryptography", "Object Typing", "JSON Web Token" ],
       "liveLink": "#",
-      "githubLink": "https://github.com"
+      "githubLink": "https://github.com/daniel-mar/vault_project"
+    },
+    {
+      "id": 2,
+      "title": "Quantum Random Generated Number",
+      "description": "TRUE Randomness thanks to Quantum Computing. Backend and QC logic with a Angular v22 front-end. Proof of concept that went from statistically proving Quantum superpositioning in the console (4000+ generated values), to displaying generated numerical values. Trusting that the numbers are truly random ",
+      "imageUrl": "quantum_rng.png",
+      "technologies": ["Angular 22", "Python", "Qiskit", "Quantum Computing"],
+      "liveLink": "#",
+      "githubLink": "https://github.com/daniel-mar/quantum-rng"
     },
     {
       "id": 2,
