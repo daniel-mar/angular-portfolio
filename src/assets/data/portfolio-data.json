@@ -11,7 +11,7 @@
       "id": 1,
       "title": "Vault Project",
       "description": "Back-end API utilizing Post Quantum Cryptography (PQC) algorithms for creating tokens to establish secure sessions when interacting between client and server. Focused on ML-KEM and Kyber-768 Algorithms. Practicing test-driven development (TDD) and ensuring code quality through unit testing. Modular, maintainable, and scalable file structure prior to adding a front-end.",
-      "imageUrl": "pqc.png",
+      "imageUrl": "assets/data/images/pqc.png",
       "technologies": ["Python", "OQS-Library", "Post-Quantum Cryptography", "Object Typing", "JSON Web Token" ],
       "liveLink": "#",
       "githubLink": "https://github.com/daniel-mar/vault_project"
@@ -20,13 +20,13 @@
       "id": 2,
       "title": "Quantum Random Generated Number",
       "description": "TRUE Randomness thanks to Quantum Computing. Backend and QC logic with a Angular v22 front-end. Proof of concept that went from statistically proving Quantum superpositioning in the console (4000+ generated values), to displaying generated numerical values. Trusting that the numbers are truly random ",
-      "imageUrl": "quantum_rng.png",
+      "imageUrl": "assets/data/images/quantum_rng.png",
       "technologies": ["Angular 22", "Python", "Qiskit", "Quantum Computing"],
       "liveLink": "#",
       "githubLink": "https://github.com/daniel-mar/quantum-rng"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Angular Weather App",
       "description": "This weather app fetches weather data from OpenWeatherMap api for 'Los Angeles'. The user can search for other cities and adjust temperature units. Utilizes proxy configurations to securely manage API keys and ensure seamless integration. Focused on keeping the project modular for scalability, maintainability and debugging. Serverless: Interact with page's search feature to view rendered data",
       "imageUrl": "assets/data/images/weather_app.png",
