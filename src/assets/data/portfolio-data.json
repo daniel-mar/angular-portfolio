@@ -1,10 +1,11 @@
 {
   "profile": {
-    "title": "About Me",
+    "title": "Hey There, I am Daniel Paiz",
     "avatarUrl": "assets/data/images/portfolio-me.jpg",
-    "headline": "Hey there! I am Daniel Paiz, an early-career Software & Quality Assurance Engineer dedicated to writing highly performant, well-tested code.",
-    "biography1": "I enjoy being up to date about new technologies and cybersecurity trends. ",
-    "biography2": "This app showcases the use of Angular v22 with scalability in mind, ensuring maintainability and performance across applications. Here are a few projects I have worked on, demonstrating my journey in software development."
+    "headline": "An early-career Software Engineer, most recently QA Software Engineer; dedicated to writing highly performant, well-tested code.",
+    "biography1": "I enjoy being up to date about new technologies and cybersecurity trends. i.e. Post-Quantum Cryptography and NIST standardization.",
+    "biography2": "My most recent role as a Software Engineer QA Apprentice at Verizon helped me grow as I learned about scripting and automation using Python, Robot Framework, Selenium, JavaScript where I created generic reusable tests/functions that simulated manual testing and user experience scenarios of our platform. Providing feedback on daily standups of any bugs with quick summary videos of bug(s) replicated, along with possible fixes.",
+    "biography3": "I worked with stakeholders, marketing teams, engineers and designers overviewing FIGMA designs and helped bridge the gap between our off-shore engineers and design expectations within the production platform. I also assisted on the internal Verizon Cyber Health (educational platform) on testing the user experience ofupcoming releases to educate all employees on possible attack vectors and how to defend against them."
   },
   "projects": [
     {

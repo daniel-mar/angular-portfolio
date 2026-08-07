@@ -9,6 +9,7 @@ export interface ProfileData {
   headline: string;
   biography1: string;
   biography2: string;
+  biography3: string;
 }
 
 @Component({
