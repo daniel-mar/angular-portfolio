@@ -26,22 +26,22 @@
     width: 100%;
 
     h1 {
-      color: #333;
-      font-size: 2rem;
+      color: var(--text-color);
+      font-size: 2.5rem;
       margin-top: 0;
       margin-bottom: 0.75rem;
     }
 
     .intro {
-      font-size: 1.1rem;
-      color: #444;
+      font-size: 1.25rem;
+      color: var(--text-muted);
       font-weight: 500;
       margin-bottom: 1rem;
     }
 
     .details {
-      font-size: 0.95rem;
-      color: #666;
+      font-size: 1rem;
+      color: var(--text-muted);
     }
   }
 
@@ -67,7 +67,7 @@
       }
 
       .intro {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
       }
 
       .details {

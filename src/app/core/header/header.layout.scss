@@ -5,16 +5,42 @@
   gap: 1rem;
   padding: 1rem;
   border-bottom: 1px solid #eaeaea;
-  background: #fafafa;
+  background: #4e4e4e;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
 
   .brand-logo {
     font-size: 1.1rem;
     font-weight: 700;
-    color: #333;
-    letter-spacing: -0.5px;
+    color: var(--text-color);
     text-align: center;
   }
+
+  .brand-link {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  .social-links {
+    margin-left: 0.75rem;
+  }
+
+  .social-icon-link {
+  color: var(--text-color);
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    color: #0a66c2;
+    background-color: var(--surface-color);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
 
   // Responsive Breakpoint: Tablets and Desktops (768px and up)
   @media (min-width: 768px) {
@@ -26,5 +52,9 @@
       font-size: 1.25rem;
       text-align: left;
     }
+  }
+
+    .social-links {
+    margin-left: 1rem;
   }
 }

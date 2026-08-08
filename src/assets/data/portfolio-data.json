@@ -3,9 +3,9 @@
     "title": "Hey There, I am Daniel Paiz",
     "avatarUrl": "assets/data/images/portfolio-me.jpg",
     "headline": "An early-career Software Engineer, most recently QA Software Engineer; dedicated to writing highly performant, well-tested code.",
-    "biography1": "I enjoy being up to date about new technologies and cybersecurity trends. i.e. Post-Quantum Cryptography and NIST standardization.",
-    "biography2": "My most recent role as a Software Engineer QA Apprentice at Verizon helped me grow as I learned about scripting and automation using Python, Robot Framework, Selenium, JavaScript where I created generic reusable tests/functions that simulated manual testing and user experience scenarios of our platform. Providing feedback on daily standups of any bugs with quick summary videos of bug(s) replicated, along with possible fixes.",
-    "biography3": "I worked with stakeholders, marketing teams, engineers and designers overviewing FIGMA designs and helped bridge the gap between our off-shore engineers and design expectations within the production platform. I also assisted on the internal Verizon Cyber Health (educational platform) on testing the user experience ofupcoming releases to educate all employees on possible attack vectors and how to defend against them."
+    "biography1": "Learning new tech and cyber security trends, i.e. Post-Quantum Cryptography and NIST standardization.",
+    "biography2": "My most recent role as a Software Engineer QA Apprentice at Verizon, where I learned and applied scipting and automation: using Python, Robot Framework, Selenium, JavaScript. With focus on creating reusable tests/functions to simulated manual testing and user experience scenarios of our platform. Providing feedback on daily standups of any bugs with quick summary videos of bug(s) replicated, along with possible fixes.",
+    "biography3": "I worked with stakeholders, marketing teams, engineers and designers overviewing FIGMA designs and helped bridge the gap between our off-shore engineers and design expectations within the production platform. Also assisting on the internal Verizon Cyber Health team (educational platform). Testing the user experience for upcoming releases to educate all employees on possible attack vectors and how to defend against them."
   },
   "projects": [
     {
@@ -14,7 +14,7 @@
       "description": "Back-end API utilizing Post Quantum Cryptography (PQC) algorithms for creating tokens to establish secure sessions when interacting between client and server. Focused on ML-KEM and Kyber-768 Algorithms. Practicing test-driven development (TDD) and ensuring code quality through unit testing. Modular, maintainable, and scalable file structure prior to adding a front-end.",
       "imageUrl": "assets/data/images/pqc.png",
       "technologies": ["Python", "OQS-Library", "Post-Quantum Cryptography", "Object Typing", "JSON Web Token" ],
-      "liveLink": "#",
+      "liveLink": "https://github.com/daniel-mar/vault_project",
       "githubLink": "https://github.com/daniel-mar/vault_project"
     },
     {
@@ -23,7 +23,7 @@
       "description": "TRUE Randomness thanks to Quantum Computing. Backend and QC logic with a Angular v22 front-end. Proof of concept that went from statistically proving Quantum superpositioning in the console (4000+ generated values), to displaying generated numerical values. Trusting that the numbers are truly random ",
       "imageUrl": "assets/data/images/quantum_rng.png",
       "technologies": ["Angular 22", "Python", "Qiskit", "Quantum Computing"],
-      "liveLink": "#",
+      "liveLink": "https://github.com/daniel-mar/quantum-rng",
       "githubLink": "https://github.com/daniel-mar/quantum-rng"
     },
     {
