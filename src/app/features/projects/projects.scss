@@ -4,7 +4,7 @@
   font-family: sans-serif;
 
   h1 {
-    color: #333;
+    color: var(--text-muted);
     font-size: 2rem;
     margin-bottom: 1.5rem;
     text-align: center;
@@ -15,8 +15,10 @@
     // Fluidly auto-calculates columns: 1 column on phone, 2 on tablet, 3+ on desktop
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1.5rem;
-    row-gap: 50px;
+    row-gap: 75px;
     width: 100%;
+    background-color: var(--bg-color);
+  
   }
 
   .empty-state {
@@ -27,7 +29,7 @@
   }
 
   // Responsive Breakpoint: Tablets and Desktops (768px and up)
-  @media (min-width: 768px) {
+  @media (min-width: 768px) and (max-width: 1024px) {
     h1 {
       font-size: 2.5rem;
       text-align: left;
@@ -36,6 +38,8 @@
 
     .projects-grid {
       gap: 2rem;
+      row-gap: 75px;
+
     }
   }
 }

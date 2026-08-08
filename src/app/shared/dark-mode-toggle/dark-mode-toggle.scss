@@ -1,0 +1,59 @@
+.theme-toggle-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: var(--surface-color);
+  }
+}
+
+.icon-wrapper {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+/* Base state for both icons */
+.sun-icon, .moon-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), 
+              opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 
+  LIGHT MODE STATE (Default)
+*/
+.sun-icon {
+  opacity: 0;
+  transform: rotate(90deg) scale(0.5);
+}
+
+.moon-icon {
+  opacity: 1;
+  transform: rotate(0) scale(1);
+}
+
+/* 
+  DARK MODE STATE (.is-dark class applied)
+*/
+.theme-toggle-btn.is-dark {
+  .sun-icon {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+  
+  .moon-icon {
+    opacity: 0;
+    transform: rotate(-90deg) scale(0.5);
+  }
+}
