@@ -2,9 +2,9 @@
   "profile": {
     "title": "Hey There, I am Daniel Paiz",
     "avatarUrl": "assets/data/images/portfolio-me.jpg",
-    "headline": "An early-career Software Engineer, most recently QA Software Engineer; dedicated to writing highly performant, well-tested code.",
+    "headline": "An early-career Software Engineer, QA; dedicated to writing highly performant, well-tested code.",
     "biography1": "Learning new tech and cyber security trends, i.e. Post-Quantum Cryptography and NIST standardization.",
-    "biography2": "My most recent role as a Software Engineer QA Apprentice at Verizon, where I learned and applied scipting and automation: using Python, Robot Framework, Selenium, JavaScript. With focus on creating reusable tests/functions to simulated manual testing and user experience scenarios of our platform. Providing feedback on daily standups of any bugs with quick summary videos of bug(s) replicated, along with possible fixes.",
+    "biography2": "My most recent role as a Software Engineer QA Apprentice at Verizon, I worked on scripting and automation using Python, Robot Framework, Selenium, JavaScript. Focusing on creating reusable tests/functions to simulate manual testing and various user experience scenarios within our platform. While also reducing redudant lines of code in the process for better readability and future maintaining. Providing feedback on daily standups of any bugs with quick summary and bug(s) replication, along with possible fixes.",
     "biography3": "I worked with stakeholders, marketing teams, engineers and designers overviewing FIGMA designs and helped bridge the gap between our off-shore engineers and design expectations within the production platform. Also assisting on the internal Verizon Cyber Health team (educational platform). Testing the user experience for upcoming releases to educate all employees on possible attack vectors and how to defend against them."
   },
   "projects": [
